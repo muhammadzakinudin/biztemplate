@@ -8,6 +8,9 @@ body {
 	text-align: left;
 	background-color: #fff;
 }
+.container-section {
+    min-width: 1260px !important;
+}
 a.nav-link {
 	font-size: 13px;
 	color: #304b82;
@@ -61,4 +64,97 @@ a.nav-link:hover {
 	background-color: #304b82 !important;
     border: 1px solid #304b82 !important;
     text-decoration: none;
+}
+
+.section-main-content {
+    padding: 30px 0;
+}
+.section-main-content h1.title {
+    color: #0f1019;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    line-height: 40px;
+    text-align: center;
+}
+.section-main-content p.sub-title {
+    margin: 17px auto 0;
+    color: #6d6d6d;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    max-width: 706px;
+    text-align: center;
+}
+.section-main-content .head-content {
+    text-align: center;
+}
+.section-main-content .head-content h3 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .23px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.section-main-content .head-content h5 {
+    color: #6d6d6d;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+}
+.section-title {
+    display: block;
+    width: 100%;
+}
+.sub-section {
+    margin-top: 40px;
+    width: 100%;
+}
+.sub-section .box-video {
+    border-radius: 10px;
+}
+.box-list-invest {
+    display: inline-block;
+}
+.icon-invest {
+    float: left;
+    width: 72px;
+    height: 72px;
+}
+.icon-invest img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.list-invest {
+    float: left;
+    margin-left: 20px;
+}
+.list-invest h5 {
+    color: #304b82;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    line-height: 24px;
+    text-align: left;
+}
+.list-invest p {
+    color: #6d6d6d;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: .2px;
+    line-height: 22px;
+    max-width: 341px;
+    margin-top: 4px;
+    text-align: left;
 }
