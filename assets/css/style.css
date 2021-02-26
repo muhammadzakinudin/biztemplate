@@ -11,6 +11,9 @@ body {
 .container-section {
     min-width: 1260px !important;
 }
+.off-white {
+    background-color: #fafafa;
+}
 a.nav-link {
 	font-size: 13px;
 	color: #304b82;
@@ -89,6 +92,16 @@ a.nav-link:hover {
     max-width: 706px;
     text-align: center;
 }
+.section-main-content p.sub-title-width {
+    margin: 17px auto 0;
+    color: #6d6d6d;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    text-align: center;
+}
 .section-main-content .head-content {
     text-align: center;
 }
@@ -157,4 +170,226 @@ a.nav-link:hover {
     max-width: 341px;
     margin-top: 4px;
     text-align: left;
+}
+
+.section-main-table {
+    padding: 3rem 0;
+}
+.section-main-table h1.title {
+    color: #0f1019;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    line-height: 40px;
+    text-align: center;
+}
+.section-main-table p.sub-title {
+    margin: 17px auto 0;
+    color: #6d6d6d;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    max-width: 706px;
+    text-align: center;
+}
+.section-main-table p.sub-title-width {
+    margin: 17px auto 0;
+    color: #6d6d6d;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 24px;
+    text-align: center;
+}
+.section-main-table .list-bisnis-tabel {
+    display: block;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content {
+    display: block;
+    margin: 40px auto 0;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 1110px;
+    padding: 16px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row:hover {
+    box-shadow: 0 2px 8px 0 rgb(15 16 25 / 20%);
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .icon img {
+    width: 88px;
+    height: 88px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    float: left;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .name {
+    float: left;
+    margin-left: 16px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .name p.row-title {
+    margin-top: 4px;
+    width: 224px;
+    height: 48px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: .2px;
+    color: #304b82;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .name p.row-category {
+    width: 224px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #6d6d6d;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .price {
+    float: left;
+    margin-left: 36px;
+    width: 160px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .price .title {
+    margin-bottom: 0;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .price .amount {
+    margin-top: 8px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #0f1019;
+    white-space: nowrap;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .investor {
+    float: left;
+    margin-left: 36px;
+    width: 130px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .investor .title {
+    margin-bottom: 0;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .investor .count {
+    margin-top: 8px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #0f1019;
+    white-space: nowrap;
+}
+
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .dana {
+    float: left;
+    margin-left: 36px;
+    width: 160px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .dana .title {
+    margin-bottom: 0;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .dana .count {
+    margin-top: 8px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #0f1019;
+    white-space: nowrap;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .dana .lead {
+    margin-top: 8px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #0f1019;
+    white-space: nowrap;
+}
+
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .expiry {
+    float: right;
+    margin-left: 20px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .expiry .title {
+    margin-bottom: 0;
+    color: #6d6d6d;
+    font-size: 14px;
+}
+.section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .expiry .lead {
+    margin-top: 8px;
+    height: 19px;
+    font-family: "Nunito Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #0f1019;
+    white-space: nowrap;
+}
+
+.btn-other-bisnis {
+    margin: 30px auto 0;
+    width: 316px;
+    padding: 15px 20px;
+    border-radius: 31px;
+    box-shadow: 0 1px 4px 0 rgb(48 75 130 / 16%);
+    border: 1px solid #304b82;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+}
+.btn-other-bisnis:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgb(48 75 130 / 30%);
+}
+.btn-other-bisnis a {
+    color: #304b82;
+    font-weight: 600;
+}
+.btn-other-bisnis a:hover {
+    text-decoration: none;
+    color: #304b82;
 }
