@@ -16,7 +16,7 @@ a.nav-link {
     line-height: 24px;
 }
 a.nav-link:hover {
-	text-decoration: underline;
+	text-decoration: underline;	
 }
 .navbar-brand img.logo {
 	height: 24px;
