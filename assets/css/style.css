@@ -704,3 +704,35 @@ a.nav-link:hover {
 .footer .copyright {
     padding: 40px 0;
 }
+
+/* List Page */
+.section-top {
+    display: block;
+    margin-bottom: 40px;
+}
+.header-background {
+    height: calc(400px - 124px);
+    background: url(../images/background/header_background.png) center/cover no-repeat;
+    padding-top: 75px;
+}
+.header-background  h1 {
+    color: #ffffff;
+    font-weight: 600;
+}
+.header-background  p {
+    color: #ffffff;
+}
+.header-search {
+    display: block;
+    margin: -50px 0 0;
+}
+.header-search .search-box {
+    width: 100%;
+    padding: 40px 40px 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 1px rgb(0 0 0 / 5%);
+}
+.header-search .search-section {
+    padding: 40px;
+}
