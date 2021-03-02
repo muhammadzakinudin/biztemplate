@@ -14,9 +14,12 @@ body {
 .off-white {
     background-color: #fafafa;
 }
+.box-shadow {
+    box-shadow: 0 2px 5px 1px rgb(0 0 0 / 5%);
+}
 a.nav-link {
 	font-size: 13px;
-	color: #304b82;
+	color: #f18a27;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 24px;
@@ -25,28 +28,29 @@ a.nav-link:hover {
 	text-decoration: underline;	
 }
 .navbar-brand img.logo {
-	height: 24px;
+	/* height: 24px; */
+    height: 60px;
 }
 .btn-login-navbar {
 	margin-right: 10px;
 	background-color: #fff;
-    border: 1px solid #304b82 !important;
-    color: #304b82 !important;
+    border: 1px solid #f18c2b !important;
+    color: #f18c2b !important;
     font-weight: 400;
 	padding: 0.375rem 1.5rem !important;
 }
 .btn-login-navbar:hover {
-	background-color: #304b82 !important;
-    border: 1px solid #304b82 !important;
+	background-color: #f18c2b !important;
+    border: 1px solid #f18c2b !important;
     color: #ffffff !important;
 }
 .btn-register-navbar {
-	background-image: linear-gradient(270deg ,#5e82b8 0,#304b82 100%);
+	background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     border: 1px solid transparent !important;
     color: #fff;
     font-weight: 600;
-	padding: 0.375rem 1.5rem !important;
-	display: inline-block;
+    padding: 0.375rem 1.5rem !important;
+    display: inline-block;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -64,8 +68,8 @@ a.nav-link:hover {
 .btn-register-navbar:hover {
 	color: #ffffff;
 	background-image: none;
-	background-color: #304b82 !important;
-    border: 1px solid #304b82 !important;
+	background-color: #f08621!important;
+    border: 1px solid #f08621 !important;
     text-decoration: none;
 }
 
@@ -154,7 +158,7 @@ a.nav-link:hover {
     margin-left: 20px;
 }
 .list-invest h5 {
-    color: #304b82;
+    color: #f18a27;
     font-size: 17px;
     font-weight: 600;
     letter-spacing: .3px;
@@ -246,7 +250,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.71;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -376,7 +380,7 @@ a.nav-link:hover {
     padding: 15px 20px;
     border-radius: 31px;
     box-shadow: 0 1px 4px 0 rgb(48 75 130 / 16%);
-    border: 1px solid #304b82;
+    border: 1px solid #f18a27;
     background-color: #fff;
     text-align: center;
     position: relative;
@@ -386,12 +390,12 @@ a.nav-link:hover {
     box-shadow: 0 4px 12px 0 rgb(48 75 130 / 30%);
 }
 .btn-other-bisnis a {
-    color: #304b82;
+    color: #f18a27;
     font-weight: 600;
 }
 .btn-other-bisnis a:hover {
     text-decoration: none;
-    color: #304b82;
+    color: #f18a27;
 }
 
 /* Bisnis yang bisa anda buka */
@@ -444,7 +448,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.57;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
     opacity: 1;
     position: absolute;
     top: 62px;
@@ -453,7 +457,7 @@ a.nav-link:hover {
     cursor: pointer;
 }
 .section-business-content .column button.btn-link-detail:hover {
-    background-color: #304b82;
+    background-color: #f18a27;
     color: #ffffff;
 }
 .section-business-content .column .box-content {
@@ -560,7 +564,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.57;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
 }
 .card-body-media .link i {
     float: right;
@@ -600,9 +604,7 @@ a.nav-link:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background: linear-gradient( 
-270deg
- ,#5e82b8 0,#304b82 100%);
+    background: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     cursor: pointer;
 }
 
@@ -633,7 +635,7 @@ a.nav-link:hover {
     width: 100%;
     height: 465px;
     border-radius: 100%/300px 100px 0 0;
-    background-image: linear-gradient(to bottom,#5e82b8,#304b82);
+    background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     z-index: -1;
 }
 .download-container {
@@ -759,7 +761,7 @@ a.nav-link:hover {
     padding: 20px 16px 10px;
 }
 .campaign .list .content span.title {
-    color: #304b82;
+    color: #f18a27;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: .18px;
@@ -769,6 +771,10 @@ a.nav-link:hover {
     display: block;
 }
 .box-content {
+    margin: 20px 0;
+
+}
+.box-content-sep {
     border-bottom: 1px solid #e6e6f0;
     margin: 20px 0;
 
@@ -789,22 +795,22 @@ a.nav-link:hover {
     width: 45%;
     float: left;
     background-color: #ffffff;
-    color: #304b82;
+    color: #f18a27;
     font-weight: 600;
     cursor: pointer;
     margin-top: 30px;
     letter-spacing: 1px;
-    border: 1px solid #304b82;
+    border: 1px solid #f18a27;
 }
 .campaign .list .content .btn-detail-action:hover {
-    background-image: linear-gradient(270deg,#5e82b8 0,#304b82 100%);
+    background-color: #f08621;
     color: #ffffff;
     border: none;
 }
 .campaign .list .content .btn-buy-action {
     width: 45%;
     float: right;
-    background-image: linear-gradient(270deg,#5e82b8 0,#304b82 100%);
+    background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -813,6 +819,144 @@ a.nav-link:hover {
 }
 .campaign .list .content .btn-buy-action:hover {
     background-image: none;
-    background-color: #304b82;
+    background-color: #f18a27;
     color: #ffffff;
+}
+
+span.header-category {
+    color: #304b82;
+    font-size: 14px;
+}
+span.header-category:before {
+    font-family: 'FontAwesome';
+    content: "\f02e";
+    color: #304b82;
+    font-size: 26px;
+    padding-right: 10px;
+    top: 5px;
+    position: relative;
+}
+h3.header-title {
+    font-size: 28px;
+    color: #0f1019;
+    display: block;
+    font-weight: 600;
+    padding: 0;
+    margin: 10px 0;
+}
+span.city {
+    color: #6d6d6d;
+    font-size: 16px;
+    margin: 6px 0 0;
+}
+.header-img-detail {
+    margin-bottom: 10px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid #e6e6f0;
+    background-color: #fff;
+    display: block;
+    align-items: center;
+    padding: 10px 0;
+}
+.company-name {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    color: #6d6d6d;
+}
+.carousel-indicators-details {
+    left: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    list-style: none;
+    left: 0;
+    text-align: left;
+    padding: 0;
+}
+.carousel-indicators-details li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 15px;
+    text-indent: -999px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.detail-content-description {
+    padding: 10px 0
+}
+.detail-content-description span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: .2px;
+    color: #6d6d6d;
+    margin-bottom: 0;
+}
+.detail-content-description h4 {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: .4px;
+    color: #0f1019;
+    margin-bottom: 30px;
+    margin-top: 4px;
+}
+.list-action-detail {
+    display: inline-block;
+    width: 100%;
+}
+.list-action-detail .btn-detail-action {
+    width: 47%;
+    float: right;
+    background-color: #ffffff;
+    color: #f18a27;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: 1px solid #f18a27;
+    padding: 12px;
+}
+.list-action-detail .btn-detail-action:hover {
+    background-color: #f08621;
+    color: #ffffff;
+}
+.list-action-detail .btn-buy-action {
+    width: 47%;
+    float: left;
+    background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 12px;
+    box-shadow: 0 2px 8px 1px rgb(241 195 148);
+}
+.list-action-detail .btn-buy-action:hover {
+    background-image: none;
+    background-color: #f18a27;
+    color: #ffffff;
+}
+
+/* Tabs Detail */
+.box-tabs {
+    padding: 20px 0;
+    border-top: 1px solid #e6e6f0;
+    border-bottom: 1px solid #e6e6f0;
+}
+.tab-content {
+    padding: 30px 0 0;
 }
