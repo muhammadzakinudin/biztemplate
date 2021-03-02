@@ -67,17 +67,33 @@
                     <form method="post" action="#">
                         <div class="row">
                         
-                            <div class="col-md-6">
-                                <input type="text" name="search" class="form-control">
+                            <div class="col-md-4">
+                                <input type="text" name="search" class="form-control search" placeholder="Cari nama bisnis">
+                                <i class="fa fa-search"></i>
                             </div>
                             <div class="col-md-2">
-                                Kategori
+                                <select name="kategory" class="form-control">
+                                    <option>Kategori</option>
+                                    <option value="">Ritel</option>
+                                    <option value="">F&B</option>
+                                    <option value="">Laundry</option>
+                                </select>
                             </div>
-                            <div class="col-md-2">
-                                Dana Terkumpul
+                            <div class="col-md-3">
+                                <select name="kategory" class="form-control">
+                                    <option>Dana Terkumpul</option>
+                                    <option value="">Ritel</option>
+                                    <option value="">F&B</option>
+                                    <option value="">Laundry</option>
+                                </select>
                             </div>
-                            <div class="col-md-2">
-                                Dana Dibutuhkan
+                            <div class="col-md-3">
+                                <select name="kategory" class="form-control">
+                                    <option>Dana Dibutuhkan</option>
+                                    <option value="">Ritel</option>
+                                    <option value="">F&B</option>
+                                    <option value="">Laundry</option>
+                                </select>
                             </div>
                         </div>
                     </form>
@@ -405,5 +421,6 @@
 	<script src="assets/js/jquery-3.3.1.min.js"></script>
 	<script src="assets/js/style.js"></script>
 	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
 </body>
 </html>

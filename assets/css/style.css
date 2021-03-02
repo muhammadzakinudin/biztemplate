@@ -735,6 +735,15 @@ a.nav-link:hover {
     border-radius: 4px;
     box-shadow: 0 2px 5px 1px rgb(0 0 0 / 5%);
 }
+.header-search .search-box input.search {
+    padding-left: 40px;
+}
+.header-search .search-box form input+i{
+    position: absolute;
+    left: 27px;
+    top: 10px;
+    color: #777;
+}
 .header-search .search-section {
     padding: 40px;
 }
