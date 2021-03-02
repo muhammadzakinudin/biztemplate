@@ -16,7 +16,7 @@ body {
 }
 a.nav-link {
 	font-size: 13px;
-	color: #304b82;
+	color: #f18a27;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 24px;
@@ -25,28 +25,29 @@ a.nav-link:hover {
 	text-decoration: underline;	
 }
 .navbar-brand img.logo {
-	height: 24px;
+	/* height: 24px; */
+    height: 60px;
 }
 .btn-login-navbar {
 	margin-right: 10px;
 	background-color: #fff;
-    border: 1px solid #304b82 !important;
-    color: #304b82 !important;
+    border: 1px solid #f18c2b !important;
+    color: #f18c2b !important;
     font-weight: 400;
 	padding: 0.375rem 1.5rem !important;
 }
 .btn-login-navbar:hover {
-	background-color: #304b82 !important;
-    border: 1px solid #304b82 !important;
+	background-color: #f18c2b !important;
+    border: 1px solid #f18c2b !important;
     color: #ffffff !important;
 }
 .btn-register-navbar {
-	background-image: linear-gradient(270deg ,#5e82b8 0,#304b82 100%);
+	background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     border: 1px solid transparent !important;
     color: #fff;
     font-weight: 600;
-	padding: 0.375rem 1.5rem !important;
-	display: inline-block;
+    padding: 0.375rem 1.5rem !important;
+    display: inline-block;
     font-weight: 400;
     text-align: center;
     white-space: nowrap;
@@ -64,8 +65,8 @@ a.nav-link:hover {
 .btn-register-navbar:hover {
 	color: #ffffff;
 	background-image: none;
-	background-color: #304b82 !important;
-    border: 1px solid #304b82 !important;
+	background-color: #f08621!important;
+    border: 1px solid #f08621 !important;
     text-decoration: none;
 }
 
@@ -154,7 +155,7 @@ a.nav-link:hover {
     margin-left: 20px;
 }
 .list-invest h5 {
-    color: #304b82;
+    color: #f18a27;
     font-size: 17px;
     font-weight: 600;
     letter-spacing: .3px;
@@ -246,7 +247,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.71;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -376,7 +377,7 @@ a.nav-link:hover {
     padding: 15px 20px;
     border-radius: 31px;
     box-shadow: 0 1px 4px 0 rgb(48 75 130 / 16%);
-    border: 1px solid #304b82;
+    border: 1px solid #f18a27;
     background-color: #fff;
     text-align: center;
     position: relative;
@@ -386,12 +387,12 @@ a.nav-link:hover {
     box-shadow: 0 4px 12px 0 rgb(48 75 130 / 30%);
 }
 .btn-other-bisnis a {
-    color: #304b82;
+    color: #f18a27;
     font-weight: 600;
 }
 .btn-other-bisnis a:hover {
     text-decoration: none;
-    color: #304b82;
+    color: #f18a27;
 }
 
 /* Bisnis yang bisa anda buka */
@@ -444,7 +445,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.57;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
     opacity: 1;
     position: absolute;
     top: 62px;
@@ -453,7 +454,7 @@ a.nav-link:hover {
     cursor: pointer;
 }
 .section-business-content .column button.btn-link-detail:hover {
-    background-color: #304b82;
+    background-color: #f18a27;
     color: #ffffff;
 }
 .section-business-content .column .box-content {
@@ -560,7 +561,7 @@ a.nav-link:hover {
     font-stretch: normal;
     line-height: 1.57;
     letter-spacing: .2px;
-    color: #304b82;
+    color: #f18a27;
 }
 .card-body-media .link i {
     float: right;
@@ -600,9 +601,7 @@ a.nav-link:hover {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    background: linear-gradient( 
-270deg
- ,#5e82b8 0,#304b82 100%);
+    background: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     cursor: pointer;
 }
 
@@ -633,7 +632,7 @@ a.nav-link:hover {
     width: 100%;
     height: 465px;
     border-radius: 100%/300px 100px 0 0;
-    background-image: linear-gradient(to bottom,#5e82b8,#304b82);
+    background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     z-index: -1;
 }
 .download-container {
@@ -759,7 +758,7 @@ a.nav-link:hover {
     padding: 20px 16px 10px;
 }
 .campaign .list .content span.title {
-    color: #304b82;
+    color: #f18a27;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: .18px;
@@ -769,6 +768,10 @@ a.nav-link:hover {
     display: block;
 }
 .box-content {
+    margin: 20px 0;
+
+}
+.box-content-sep {
     border-bottom: 1px solid #e6e6f0;
     margin: 20px 0;
 
@@ -789,22 +792,22 @@ a.nav-link:hover {
     width: 45%;
     float: left;
     background-color: #ffffff;
-    color: #304b82;
+    color: #f18a27;
     font-weight: 600;
     cursor: pointer;
     margin-top: 30px;
     letter-spacing: 1px;
-    border: 1px solid #304b82;
+    border: 1px solid #f18a27;
 }
 .campaign .list .content .btn-detail-action:hover {
-    background-image: linear-gradient(270deg,#5e82b8 0,#304b82 100%);
+    background-color: #f08621;
     color: #ffffff;
     border: none;
 }
 .campaign .list .content .btn-buy-action {
     width: 45%;
     float: right;
-    background-image: linear-gradient(270deg,#5e82b8 0,#304b82 100%);
+    background-image: linear-gradient(270deg,#ffab5c 0,#f08621 100%);
     color: #fff;
     font-weight: 600;
     cursor: pointer;
@@ -813,6 +816,6 @@ a.nav-link:hover {
 }
 .campaign .list .content .btn-buy-action:hover {
     background-image: none;
-    background-color: #304b82;
+    background-color: #f18a27;
     color: #ffffff;
 }
