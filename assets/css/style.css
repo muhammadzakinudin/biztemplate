@@ -211,6 +211,7 @@ a.nav-link:hover {
 }
 .section-main-table .list-bisnis-tabel {
     display: block;
+    overflow: auto;
 }
 .section-main-table .list-bisnis-tabel .section-invest-content {
     display: block;
@@ -312,6 +313,9 @@ a.nav-link:hover {
     letter-spacing: .2px;
     color: #0f1019;
     white-space: nowrap;
+}
+.section-box-download {
+    display: block;
 }
 
 .section-main-table .list-bisnis-tabel .section-invest-content .section-invest-content-row .dana {
@@ -1055,6 +1059,9 @@ span.city {
     justify-content: center;
     padding: 100px 150px 50px 50px;
 }
+.login .form-login .login-logo {
+    display: none;
+}
 .login .form-login h1 {
     font-family: Nunito,sans-serif;
     font-size: 40px;
@@ -1081,5 +1088,12 @@ span.city {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     color: #fff;
-    background: linear-gradient(270deg,#5e82b8 0,#304b82 100%);
+    background: linear-gradient(270deg,#ffb26a 0,#f08521 100%);
+}
+
+.section-mobile-header {
+    padding: 3rem 0;
+}
+.header-name-detail {
+    display: inline-block;
 }
