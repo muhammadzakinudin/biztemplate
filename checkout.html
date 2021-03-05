@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bizhare Template</title>
+	<link rel="icon" href="assets/images/favicon.png" type="image/gif" sizes="16x16">
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.css">
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	
+    <div class="section-checkout">
+        <div class="header-checkout">            
+            <div class="box-checkout">
+                <div class="float-left">
+                    <a href="#" style="color:#654f41"><i class="fa fa-arrow-left"></i></a>
+                    <h5 class="d-inline-block">Pembelian Saham Bisnis</h5>
+                </div>
+            </div>            
+        </div>
+        <div class="content-checkout">
+            <div class="column">
+                <div class="box-checkout-content">
+                    <span class="title">Detail Pembelian</span>
+                    <div class="d-block">                        
+                        <p>Nama Bisnis</p>
+                        <span class="float-right;"><strong>Let's Toast Holding</strong></span>
+                    </div>
+                    <div class="d-block">
+                        <p>Jangka waktu pembagian keuntungan dari pengelola</p>
+                        <span class="float-right;"><strong>12 Bulan</strong></span>
+                    </div>
+                    <div class="d-block">
+                        <p>Rata-rata dividen yield (%) / tahun</p>
+                        <span class="float-right;"><strong>16.2 - 17.6 %</strong></span>
+                    </div>
+                    <div class="d-block">
+                        <p>Waktu balik modal</p>
+                        <span class="float-right;"><strong>68 - 74 bulan</strong></span>
+                    </div>
+                    <br>
+                    <p class="note">*Rata-rata dividen dan waktu balik modal berdasarkan data historis</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-checkout pt-0">
+            <div class="column">
+                <div class="box-checkout-content">
+                    <span class="title">Kode Voucher</span>
+                    <div class="d-block">                        
+                        <p><strong>Kode Voucher</strong></p>
+                        <div class="float-right">
+                            <input type="text" name="kode_voucher" class="">
+                            <button type="submit" name="submit_voucher" class="btn-voucher">Pakai</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content-checkout pt-0">
+            <div class="column">
+                <div class="box-checkout-content">
+                    <div class="d-block"style="border-bottom:1px solid #e6e6f0;">
+                        <p><strong>Harga Per Lembar Saham</strong></p>
+                        <span class="float-right;"><strong>Rp 50.000</strong></span>                        
+                    </div>
+                    <div class="d-block mt-3">                        
+                        <p class="title">Jumlah Saham</p>
+                        <div class="float-right">
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]" style="width:50px;height:50px">
+                                      <span class="fa fa-minus" style="float:none;"></span>
+                                    </button>
+                                </span>
+                                <input type="text" name="quant[2]" class="form-control input-number" value="2" min="2" max="10000">
+                                <span class="input-group-btn">
+                                    <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]" style="width:50px;height:50px">
+                                        <span class="fa fa-plus" style="float:none;"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <br>
+                    <p class="note">*Minimum pembelian saham 2 lembar</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-checkout pt-0">
+            <div class="column">
+                <div class="box-checkout-content">
+                    <span class="title">Metode Pembayaran</span>
+                    <div class="d-block">                        
+                        <p class="title">Bank Transfer</p>
+                        
+                    </div>
+                        
+                    <div class="inputGroup">
+                        <input id="radio1" name="radio" type="radio"/>
+                        <label for="radio1" style="margin-bottom:0"><img src="assets/images/mandiri.png" style=width:100px;></label>
+                    </div>
+                    <div class="inputGroup">
+                        <input id="radio2" name="radio" type="radio"/>
+                        <label for="radio2"><img src="assets/images/bri.png" style=width:100px></label>
+                    </div>
+                    <div class="inputGroup">
+                        <input id="radio3" name="radio" type="radio"/>
+                        <label for="radio3"><img src="assets/images/bca.png" style=width:100px></label>
+                    </div>
+                    <div class="inputGroup">
+                        <input id="radio4" name="radio" type="radio"/>
+                        <label for="radio4"><img src="assets/images/bni.png" style=width:100px></label>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content-checkout pt-0">
+            <div class="column">
+                <div class="box-checkout-content">
+                    <div class="d-block">
+                        <p>Nilai Bisnis</p>
+                        <span class="float-right"><strong>Rp 100.000,00</strong></span>
+                    </div>
+                    <div class="d-block" style="border-bottom: 1px solid #e6e6f0;">
+                        <p>Biaya Layanan</p>
+                        <span class="float-right;"><strong>Rp 5.000,00</strong></span>
+                    </div>
+                    <div class="d-block pt-3">                        
+                        <p>Total Biaya Investasi</p>
+                        <span class="float-right" style="color:#f08621;"><strong>Rp 105.000,00</strong></span>
+                    </div>
+                    <div class="d-block pt-3">                        
+                        <button type="submit" class="btn-buy">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+    //plugin bootstrap minus and plus
+//http://jsfiddle.net/laelitenetwork/puJ6G/
+$('.btn-number').click(function(e){
+    e.preventDefault();
+    
+    fieldName = $(this).attr('data-field');
+    type      = $(this).attr('data-type');
+    var input = $("input[name='"+fieldName+"']");
+    var currentVal = parseInt(input.val());
+    if (!isNaN(currentVal)) {
+        if(type == 'minus') {
+            
+            if(currentVal > input.attr('min')) {
+                input.val(currentVal - 1).change();
+            } 
+            if(parseInt(input.val()) == input.attr('min')) {
+                $(this).attr('disabled', true);
+            }
+
+        } else if(type == 'plus') {
+
+            if(currentVal < input.attr('max')) {
+                input.val(currentVal + 1).change();
+            }
+            if(parseInt(input.val()) == input.attr('max')) {
+                $(this).attr('disabled', true);
+            }
+
+        }
+    } else {
+        input.val(0);
+    }
+});
+$('.input-number').focusin(function(){
+   $(this).data('oldValue', $(this).val());
+});
+$('.input-number').change(function() {
+    
+    minValue =  parseInt($(this).attr('min'));
+    maxValue =  parseInt($(this).attr('max'));
+    valueCurrent = parseInt($(this).val());
+    
+    name = $(this).attr('name');
+    if(valueCurrent >= minValue) {
+        $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the minimum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    if(valueCurrent <= maxValue) {
+        $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the maximum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    
+    
+});
+$(".input-number").keydown(function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+             // Allow: Ctrl+A
+            (e.keyCode == 65 && e.ctrlKey === true) || 
+             // Allow: home, end, left, right
+            (e.keyCode >= 35 && e.keyCode <= 39)) {
+                 // let it happen, don't do anything
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+    </script>
+
+	
+	<script src="assets/js/style.js"></script>
+	<script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

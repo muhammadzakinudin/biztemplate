@@ -99,6 +99,11 @@
     .tab-content {
         padding: 30px 15px 0;
     }
+
+    /* Checkout Page */
+    .content-checkout {
+        padding: 100px 20px 50px 20px;
+    }
     
 
 }
