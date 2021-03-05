@@ -1097,3 +1097,114 @@ span.city {
 .header-name-detail {
     display: inline-block;
 }
+
+
+/* Checkout */
+.header-checkout {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    color: #304b82;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(48 75 130 / 12%);
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+.header-checkout .box-checkout {
+    display: flex;
+    width: 650px;
+    height: 100%;
+    align-items: center;
+}
+.header-checkout .box-checkout h5 {
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #f08621;
+}
+.content-checkout {
+    display: flex;
+    width: 100%;
+    /* min-height: 100vh; */
+    padding: 100px 0 50px;
+    background: #fafafa;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-start;
+}
+.content-checkout .column {
+    display: flex;
+    width: 650px;
+    height: 100%;
+    align-items: center;
+}
+.content-checkout .column .box-checkout-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px 0 rgb(48 75 130 / 12%);
+    flex-direction: column;
+    padding:  50px;
+}
+.content-checkout .column .box-checkout-content span.title {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    float: left;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e6e6f0;
+}
+.content-checkout .column .box-checkout-content p {
+    font-size: 16px;
+    color: #6d6d6d;
+    float: left;
+    display: inline-block;
+}
+.content-checkout .column .box-checkout-content p.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+}
+.content-checkout .column .box-checkout-content p.note {
+    font-size: 14px;
+    color: #6d6d6d;
+    float: left;
+    display: inline-block;
+}
+.content-checkout .column .box-checkout-content span {
+    float: right;
+}
+.content-checkout .column .box-checkout-content input[type=text] {
+    font-size: 18px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    margin: 0 15px;
+    padding: 0 10px;
+    text-align: center;
+    border: 1px solid #e6e6f0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: 0;
+}
+.content-checkout .column .box-checkout-content .btn-voucher {
+    color: #fff;
+    background: #f08621;
+    height: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 50px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.content-checkout .column .box-checkout-content .btn-voucher:hover {
+    background: #ec9b4e;
+}
